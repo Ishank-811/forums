@@ -1,0 +1,15 @@
+.copyright{
+    background-color: black;
+    height: 26px;
+    width:100%; 
+    
+}
+.container{
+    display: flex!important;
+    flex-wrap: wrap!important;
+}
+.card{
+    margin-right: 40px!important;
+    display: flex!important;
+    flex-wrap: wrap!important;
+}

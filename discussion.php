@@ -42,11 +42,6 @@ echo '<h3 class="display-4">'.$row{'thread_title'}.'</h3>
  }
 ?>
 
-
-
-
-
-
 <?php
 
 
@@ -68,8 +63,6 @@ echo "";
 }
 
 ?>
-
-
 
  </div>
 </div>
@@ -134,17 +127,6 @@ $comment_id = $row{'comment_id'};
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 <?php 
 
 if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']=true){
@@ -178,7 +160,6 @@ else{
   echo "you cannot comment ,you have to login/signup";
 }
     ?>
-
 
 </body>
 </html>
